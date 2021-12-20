@@ -1,0 +1,246 @@
+.margen {
+  margin-left: 50px;
+}
+
+.estiloMenu li > a:hover { 
+  background-color: pink;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pink {
+  color: #ffc4eb;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#datos {
+  background-color:pink;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.form-row {
+  width: 100%;
+}
+.form-group {
+  color:#ffffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+.finalizacion {
+  text-align: left;
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.cargar {
+  width: auto;
+}
+
+.descuentos {
+  background-color: beige;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.promo {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botonEnviar{
+  margin-top: 20px;
+}
+
+.message{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgb(240, 61, 91);
+  text-align: center;
+}
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.ofertas {
+  text-align: center;
+  color: rgb(240, 61, 91);
+  margin-top: 20px;
+}
+
+.cart {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background: pink;
+}
+
+.car-img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.producto-carrito {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-detalle {
+  font-weight: bold;
+  text-align: center;
+}
+
+.finalizar {
+  width: 20%;
+}
+
+#remove-product {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  padding: 0px;
+}
+
+.total-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background: rgb(252, 63, 95);
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.finalizarCompra{
+  display: flex;
+  justify-content: center;
+}
+
+.finalizarCompraDos{
+  color: rgb(252, 63, 95);
+  font-family:sans-serif;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#redes{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.final{
+  background-image: linear-gradient(to right, rgb(253, 87, 115), rgb(248, 169, 182));
+  color: white;
+  display: flex;
+  justify-content:space-around;
+  padding-top: 15px;
+  font-family: sans-serif;
+  font-weight: 2px;
+}
+
+.inicial{
+  margin-left: 0px;
+  background-image: linear-gradient(to right, rgb(247, 112, 135), rgb(245, 215, 220));
+}
+
+.primero{
+  color: rgb(241, 78, 28);
+  font-family: sans-serif;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.segundo{
+  color: rgb(190, 51, 128);
+  font-family: sans-serif;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tercero{
+  color: rgb(102, 202, 241);
+  font-family: sans-serif;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;  
+}
+
+.cuarto{
+  color: rgb(255, 238, 0);
+  font-family: sans-serif;
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.pie {
+  margin-top: 10px;
+}

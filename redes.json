@@ -1,0 +1,16 @@
+{
+    "social":[
+        {
+            "nombre": "facebook",
+            "imagen": "./img/Facebook.png",
+            "url": "https://www.facebook.com/luluwshowroom"
+        },
+        {
+            "nombre": "instagram",
+            "imagen": "./img/Instagram.png",
+            "url": "https://www.instagram.com/luluwhiteok/?hl=es"
+        }
+    ]
+}
+
+
